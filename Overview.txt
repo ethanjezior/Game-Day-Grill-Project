@@ -1,0 +1,12 @@
+This document will be used to plan the workflow, design, mark job allocation, and detail the process for the Game-Day grill project.
+
+
+Workflow Plan: 
+
+Website Design:
+
+Job Allocation:
+    1.  Ethan Jezior - Catering / Reservation
+    2.  Viekses Horn - Home Page
+    3.  Brian - Location
+    4.  Nathaniel Firlik- 
