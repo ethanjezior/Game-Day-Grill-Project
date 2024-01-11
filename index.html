@@ -1,1 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Restaurant</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>My Restaurant</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#reservation">Reservation</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Welcome to My Restaurant. Here's our story...</p>
+    </section>
+
+    <section id="menu">
+        <h2>Menu</h2>
+        <p>Check out our delicious menu...</p>
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <p>Some images of our dishes and restaurant...</p>
+    </section>
+
+    <section id="reservation">
+        <h2>Make a Reservation</h2>
+        <form id="reservationForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required><br>
+            <label for="time">Time:</label>
+            <input type="time" id="time" name="time" required><br>
+            <label for="guests">Number of Guests:</label>
+            <input type="number" id="guests" name="guests" required><br>
+            <input type="submit" value="Reserve">
+        </form>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Get in touch with us...</p>
+    </section>
+
+    <footer>
+        <p>© 2024 My Restaurant</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
