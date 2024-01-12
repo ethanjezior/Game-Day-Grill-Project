@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Favicon -->
+    <link rel="icon" type="image/icon" sizes="64x64" href="images/favicon.ico">
 
     <!-- Style Sheet -->
     <link rel="stylesheet" type="text/css" href="style.css">
@@ -28,10 +29,35 @@
         </ul>
     </nav>
 
-    <!-- Header / Gallary-->
+    <!-- Header -->
     <header>
         <h1>Home / Menu</h1>
     </header>
+
+    <!-- gallery -->
+    <div class="max-width gal-container">
+        <div class="gallery fade">
+            <img src="" class="gal-img">
+        </div>
+
+        <div class="gallery fade">
+            <img src="" class="gal-img">
+        </div>
+
+        <div class="gallery fade">
+            <img src="" class="gal-img">
+        </div>
+
+        <a class="prev-img" onclick="galImage(-1)">&#10094;</a>
+        <a class="next-img" onclick="galImage(+1)">&#10095;</a>
+    </div>
+
+    <!-- gallery Dots -->
+    <div class="center">
+        <span class="dot" onclick="currentImg(1)"></span>
+        <span class="dot" onclick="currentImg(2)"></span>
+        <span class="dot" onclick="currentImg(3)"></span>
+    </div>
 
     <!-- Main Content Area -->
     <main>
@@ -74,9 +100,9 @@
     </section>
 
     <footer>
-        <p>© 2024 My Restaurant</p>
+        <p>© Copywrite 2024. All Rights Reserved.</p>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="scripts/script.js"></script>
 </body>
 </html>
