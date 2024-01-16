@@ -64,7 +64,7 @@ form input[type=submit] {
     cursor: pointer;
 }
 
-form input[type=submit]:hover {
+form input[type=sgallaryubmit]:hover {
     background-color: #555;
 }
 
@@ -91,6 +91,10 @@ form input[type=submit]:hover {
     margin-top: -1%;
     padding: 1%;
     color: #f00;
+}
+
+.gal-img {
+    width: 100%;
 }
 
 /* Positions next-img to the right */
