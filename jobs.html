@@ -7,12 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Favicon -->
+    <link rel="icon" type="image/icon" sizes="64x64" href="images/favicon.ico">
 
     <!-- Style Sheet -->
     <link rel="stylesheet" type="text/css" href="style.css">
 
     <!-- Page Title -->
-    <title>Home - Menu | Game-Day Grill</title>
+    <title>Job Opportunities - Positions | Game-Day Grill</title>
 </head>
 
 <body>
@@ -21,7 +22,7 @@
     <!-- Navigation Links -->
     <nav>
         <ul>
-            <li><a href="#menu">Menu</a></li>
+            <li><a href="index.html">Menu</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="order.html">Reservations</a></li>
             <li><a href="contact.html">Contact</a></li>
@@ -31,12 +32,88 @@
 
     <!-- Header / Gallary-->
     <header>
-        <h1>Home / Menu</h1>
+        <h1>Join Our Team!</h1>
     </header>
 
     <!-- Main Content Area -->
-    <main>
-
+    <main id="jobs">
+        <div class="container">
+            <p class="center">Join our team of passionate staff members today.</p>
+            <hr>
+            <!-- Job Details Grid -->
+            <div class="grid grid-1x3">
+                <div class="col">
+                    <h4 class="center underline">Positions</h4>
+                    <p class="center">
+                        Here at Game-Day-Grill we have a wide variety of 
+                        positions open depending on your experience level.
+                    </p>
+                    <h5 class="left">Open Positions Include:</h5>
+                    <ul>
+                        <li>Crew - $15.00 / Hour</li>
+                        <li>Bartender - $20.00 / Hour</li>
+                        <li>Assistant Cook - $18.00 / Hour</li>
+                        <li>Cook - $20.00 / Hour</li>
+                        <li>Head Cook - $23.00 / Hour</li>
+                        <li>Cashier - $16.00 / Hour</li>
+                        <li>Shift Lead - $20.00 / Hour</li>
+                        <li>Assistant Manager - $24.00 / Hour</li>
+                        <li>Manager - $28.00 / Hour</li>
+                        <li>District Manager - $33.00 / Hour</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h4 class="center underline">Benefits</h4>
+                    <p class="center">
+                        Each and every one of our employees has 
+                        access to the same benefits including:
+                    </p>
+                    <ul>
+                        <li>2 Weeks unpaid vacation per year</li>
+                        <li>1 Week paid sick time (more time available depending on circumstance)</li>
+                        <li>Quarterly raises starting at $0.50</li>
+                        <li>Profit Sharing (25% of <em>profit</em> split between employees based on time worked that quarter)</li>
+                        <li>Health Insurance</li>
+                        <li>Life Insurance</li>
+                        <li>Free Counseling</li>
+                        <li>College Reimbursement</li>
+                        <li>1 Year paid parental leave (for employees of more than 4 years)</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h4 class="center underline">Opportunities</h4>
+                    <p class="center">
+                        We like to make sure our workers are covered, even if they 
+                        go on to other ventures. What this means is that we make sure 
+                        our employees have the tools needed for them to succeed both in 
+                        the present, and in the future regardless of whether or not they 
+                        intent to stay employed under us.
+                    </p>
+                </div>
+            </div>
+            <div class="p-x-one">
+                <h2>Apply Today</h2>
+                <form> <!-- Jobs Form-->
+                    <div class="trans w-half">
+                        <label for="fname">First Name:</label>
+                        <input type="text" id="fname" name="fname" required>
+                    </div>
+                    <div class="trans w-half">
+                        <label for="date">Date:</label>
+                        <input type="date" id="date" name="date" required><br>
+                    </div>
+                    <div class="trans w-half">
+                        <label for="lname">Last Name:</label>
+                        <input type="text" id="lname" name="lname" required><br>
+                    </div>
+                    <div class="trans w-half">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required><br>
+                    </div>
+                    <div class="trans w-half"><input type="submit" value="Apply" class="m-y-one"></div>
+                </form>
+            </div>
+        </div>
     </main>
 
     <footer>

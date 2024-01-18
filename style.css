@@ -1,4 +1,7 @@
-* {box-sizing: border-box;}
+* {
+    box-sizing: border-box; 
+    max-width: 100%;
+}
 
 body {
     font-family: 'Arial', sans-serif;
@@ -132,4 +135,87 @@ form input[type=sgallaryubmit]:hover {
 @keyframes fade {
     from {opacity: .4}
     to {opacity: 1}
+}
+
+/* Preset Styles / Preset Classes */
+.center {
+    text-align: center;
+    margin: 1% auto;
+}
+.underline {
+    text-decoration-line: underline;
+}
+.m-y-one {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.m-x-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+.m-y-one {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.p-x-one {
+    padding-left: 1%;
+    padding-right: 1%;
+}
+.p-y-one {
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.w-half {
+    width: 50%;
+}
+.left {
+    text-align: left;
+}
+.trans {
+    background-color: transparent;
+    border: transparent;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+}
+.col {
+    padding: 3%;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+}
+form {
+    height: fit-content;
+    max-height: 1%;
+    background-color: linear-gradient(to left, 65% #ffa500, #fff);
+}
+
+form div {
+    background-color: transparent;
+}
+div.container {
+    display: block;
+    margin: 0 auto;
+}
+h5.left {
+    margin-bottom: 0;
+}
+div.col ul {
+    margin-top: 1%;
+}
+div.p-x-one {
+    display: block;
+    border: 1px solid #000;
+    margin-right: 0.1%;
+}
+label {
+    width: 50%;
+}
+input {
+    display: block;
+    width: 50%;
+    right: 0;
+}
+div.trans {
+    width: 25%;
 }
