@@ -31,12 +31,23 @@
 
     <!-- Header / Gallary-->
     <header>
-        <h1>Home / Menu</h1>
+        <h1>Reservations / Order</h1>
     </header>
 
     <!-- Main Content Area -->
     <main>
-
+        <h2>Make a Reservation</h2>
+        <form id="reservationForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required><br>
+            <label for="time">Time:</label>
+            <input type="time" id="time" name="time" required><br>
+            <label for="guests">Number of Guests:</label>
+            <input type="number" id="guests" name="guests" required><br>
+            <input type="submit" value="Reserve">
+        </form>
     </main>
 
     <footer>

@@ -10,6 +10,12 @@ body {
     background-color: #f4f4f4;
 }
 
+main {
+    display: block;
+    min-height: 150%;
+    padding-bottom: 1%;
+}
+
 header {
     background-color: #333;
     color: white;
@@ -42,7 +48,7 @@ footer {
     color: white;
     text-align: center;
     padding: 10px 0;
-    position: fixed;
+    position: relative;
     bottom: 0;
     width: 100%;
 }
@@ -185,9 +191,12 @@ form input[type=sgallaryubmit]:hover {
     border-right: 1px solid #000;
 }
 form {
+    display: block;
+    width: 50%;
     height: fit-content;
     max-height: 1%;
     background-color: linear-gradient(to left, 65% #ffa500, #fff);
+    margin: 0 auto;
 }
 
 form div {
@@ -207,15 +216,19 @@ div.p-x-one {
     display: block;
     border: 1px solid #000;
     margin-right: 0.1%;
+    margin: 0 auto;
 }
 label {
-    width: 50%;
+    display: block;
+    width: 100%;
 }
 input {
     display: block;
-    width: 50%;
+    width: 100%;
     right: 0;
+    clear: none;
 }
 div.trans {
-    width: 25%;
+    width: 50%;
+    margin: 0 auto;
 }
