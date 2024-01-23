@@ -1,5 +1,5 @@
 // This javascript file is used for handling behavior of the gallery
-let imgIndex = 2;
+let imgIndex = 0;
 showGal(imgIndex);
 
 // Next/Prev controls
@@ -9,7 +9,7 @@ function galImg(n) {
 
 // Thumbnail image controls
 function currentImg(n) {
-    showGal(imgIndex = n);
+    showGal(imgIndex += n);
 }
 
 // Controls display of Gallery Images
