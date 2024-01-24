@@ -213,8 +213,9 @@ form input[type=sgallaryubmit]:hover {
 }
 .col {
     padding: 3%;
-    border-left: 1px solid #000;
-    border-right: 1px solid #000;
+    border-top: 2px solid #000;
+    border: 2px solid #000;
+    background-color: #83817f;
 }
 form {
     display: block;
