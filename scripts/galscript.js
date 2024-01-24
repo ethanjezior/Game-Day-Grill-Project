@@ -1,5 +1,5 @@
 // This javascript file is used for handling behavior of the gallery
-let imgIndex = 0;
+let imgIndex = 2;
 showGal(imgIndex);
 
 // Next/Prev controls
