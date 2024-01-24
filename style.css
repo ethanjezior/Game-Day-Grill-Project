@@ -256,3 +256,7 @@ div.trans {
     width: 50%;
     margin: 0 auto;
 }
+.caption{
+    color:#868585;
+    font-size: smaller;
+}
