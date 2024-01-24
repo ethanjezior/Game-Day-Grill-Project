@@ -23,6 +23,10 @@ header {
     padding: 10px 0;
     text-align: center;
 }
+.navigation{
+    font-size: 2em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
 
 nav ul {
     padding: 0;
