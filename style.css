@@ -17,6 +17,10 @@ main {
     padding-bottom: 1%;
 }
 
+main h2 {
+    text-align: center;
+}
+
 header {
     background-color: #333;
     color: white;
