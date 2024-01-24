@@ -1,37 +1,42 @@
-// This javascript file is used for handling behavior of the gallary
+// This javascript file is used for handling behavior of the gallery
 let imgIndex = 0;
 showGal(imgIndex);
 
 // Next/Prev controls
 function galImg(n) {
-    showGal(imgIndex = n);
+    showGal(imgIndex += n);
 }
 
-// Thumbnail img controls
+// Thumbnail image controls
 function currentImg(n) {
     showGal(imgIndex = n);
 }
 
+// Controls display of Gallery Images
 function showGal(n) {
     let i;
-    let gal = document.getElementsByClassName("gallary");
+    let gal = document.getElementsByClassName("gallery");
+    let img = document.getElementsByClassName("gal-img");
     let dots = document.getElementsByClassName("dot");
-    imgIndex++;
-    if (imgIndex > gal.length) { imgIndex = 1 }
-    gal[imgIndex - 1].style.display = "block";
-
-    // Change image every 2 seconds
-    setTimeout(showSlides, 2000); 
-
+    const a = "auto";
     
-    if(n > gal.length) {imgIndex = 1}
-    if(n < 1) {imgIndex = gal.length}
-    for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
+    // Manual Gallery Image Change
+    if (n > gal.length) {imgIndex = 1}
+    if (n < 1) {imgIndex = gal.length}
+    for (i = 0; i < gal.length; i++) {
+        gal[i].style.display = "none";
     }
-    for(i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active","");
     }
+
+    // Styling
     gal[imgIndex-1].style.display = "block";
+    gal[imgIndex-1].style.width = "90%";
+    gal[imgIndex-1].style.margin = "auto"
+
+    img[imgIndex-1].style.display = "block";
+    img[imgIndex-1].style.margin = "1% auto";
+
     dots[imgIndex-1].className += " active";
 }
