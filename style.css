@@ -7,7 +7,7 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #5a4938;
     display: block;
 }
 
@@ -15,6 +15,10 @@ main {
     display: block;
     min-height: 150%;
     padding-bottom: 1%;
+}
+
+main h2 {
+    text-align: center;
 }
 
 header {
@@ -57,7 +61,12 @@ footer {
     bottom: 0;
     width: 100%;
 }
-
+.menu{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
 form {
     margin-top: 20px;
 }
@@ -87,8 +96,8 @@ form input[type=sgallaryubmit]:hover {
 }
 
 .gal-container {
-    max-width: 100%;
-    min-height: 20vh;
+    max-width: 60%;
+    height: 20vh;
     height: auto;
     position: relative;
     margin: auto;
@@ -112,7 +121,9 @@ form input[type=sgallaryubmit]:hover {
 }
 
 .gal-img {
-    width: fit-content;
+    width: 100%;
+    height: 100%;
+
 }
 
 /* Positions prev-img to the left*/
