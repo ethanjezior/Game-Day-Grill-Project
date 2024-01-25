@@ -113,10 +113,10 @@ form input[type=sgallaryubmit]:hover {
 .prev-img, .next-img {
     cursor: pointer;
     position: absolute;
-    font-size: larger;
+    font-size: xx-large;
     font-weight: bold;
     top: 50%;
-    width: 1%;
+    width: 3%;
     margin-top: -1%;
     padding: 1%;
     color: #f00;
@@ -220,11 +220,12 @@ form input[type=sgallaryubmit]:hover {
 }
 form {
     display: block;
-    width: 50%;
+    width: 30%;
     height: fit-content;
     max-height: 1%;
     background-color: linear-gradient(to left, 65% #ffa500, #fff);
     margin: 0 auto;
+    background-color: #717171;
 }
 form div {
     background-color: transparent;
@@ -256,7 +257,7 @@ input {
     clear: none;
 }
 div.trans {
-    width: 50%;
+    width: 80%;
     margin: 0 auto;
 }
 .caption{
