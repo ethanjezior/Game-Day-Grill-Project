@@ -211,7 +211,7 @@ form {
     background-color: #717171;
     font-size: large;
     text-align: center;
-    padding-top: 5%;
+    padding-top: 1%;
 }
 
 form div {
@@ -281,17 +281,12 @@ div.trans {
     font-size: 20px;
     text-align: center;
 }
-<<<<<<< HEAD
-=======
 
 #job-apply-msg {
     color: white;
     font-size: 20px;
     text-align: center;    
 }
-
-
->>>>>>> db28a11b58e9f340da36f89889d50fc30de11002
 
 @media screen and (min-width: 630px), print {
     main {
@@ -355,7 +350,7 @@ div.trans {
     }
 
     form {
-        margin-top: 20px;
+        margin-top: 0;
     }
 
     form input[type=text],
