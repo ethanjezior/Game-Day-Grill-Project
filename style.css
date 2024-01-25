@@ -466,13 +466,20 @@ div.trans {
     }
 
     @keyframes fade {
-        from {
-            opacity: .4
-        }
+        from {opacity: .4}
+        to {opacity: 1}
+    }
 
-        to {
-            opacity: 1
-        }
+    /* Zoom in css */
+    img {
+        cursor: pointer;
+        transition: -webkit-transform 0.1s ease
+    }
+
+    img:focus {
+        transform: scale(2);
+        -webkit-transform: scale(2);
+        -ms-transform: scale(2);
     }
 
     /* Preset Styles / Preset Classes */
