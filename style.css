@@ -201,7 +201,15 @@ section#about {
     border: 2px solid #000;
     background-color: #83817f;
 }
-
+.map{
+    display: block;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
+    height: 70vh;
+    width: 100%;
+}
 form {
     display: block;
     width: 100%;
