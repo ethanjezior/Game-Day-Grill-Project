@@ -1,3 +1,8 @@
+@font-face {
+    font-family: PoorStory;
+    src: url('fonts/Poor_Story/PoorStory-Regular.ttf');
+}
+
 * {
     box-sizing: border-box; 
     max-width: 100%;
@@ -277,9 +282,13 @@ div.trans {
 .white {
     color: #fff;
 }
-
-.confirm-msg {
-    color: white;
-    font-size: 20px;
-    text-align: center;
+.Pfont{
+    font-family: PoorStory, Impact, serif;
 }
+.f40{
+    font-size: 40px;
+}
+.f32{
+    font-size: 32px;
+}
+
