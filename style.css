@@ -19,21 +19,20 @@ body {
 
 main {
     display: block;
-    min-height: 150%;
+    min-height: 100%;
     padding-bottom: 1%;
 }
-
 main h2 {
     text-align: center;
 }
 
 header {
     background-color: #333;
-    color: white;
+    color: #fff;
     padding: 10px 0;
     text-align: center;
 }
-.navigation{
+.navigation {
     font-size: 2em;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
@@ -41,11 +40,6 @@ header {
 nav ul {
     padding: 0;
     list-style: none;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 10px;
 }
 
 nav ul li a {
@@ -67,20 +61,22 @@ footer {
     bottom: 0;
     width: 100%;
 }
-.menu{
+
+.menu {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 100%;
     border: 5px solid black;
 }
+
 form {
     margin-top: 20px;
 }
 
-form input[type=text], 
-form input[type=date], 
-form input[type=time], 
+form input[type=text],
+form input[type=date],
+form input[type=time],
 form input[type=number] {
     padding: 5px;
     margin: 10px 0;
@@ -103,7 +99,7 @@ form input[type=sgallaryubmit]:hover {
 }
 
 .gal-container {
-    max-width: 60%;
+    max-width: 100%;
     height: 20vh;
     height: auto;
     position: relative;
@@ -115,74 +111,36 @@ p.center {
 }
 
 section#about {
-    color:#fff;
+    color: #fff;
     font-weight: bold;
 }
+
 /* Makes gallery hidden by default */
 .gallery {
     display: none;
 }
 
-.prev-img, .next-img {
+.prev-img,
+.next-img {
     cursor: pointer;
     position: absolute;
-    font-size: xx-large;
+    font-size: 15vw;
     font-weight: bold;
-    top: 50%;
-    width: 3%;
+    top: 10vh;
+    width: 15vw;
     margin-top: -1%;
     padding: 1%;
     color: #f00;
 }
 
-.gal-img {
-    width: 100%;
-    height: 100%;
-    border: 5px solid black;
-}
-
 /* Positions prev-img to the left*/
 .prev-img {
-    left: 2%;
+    left: 0;
 }
 
 /* Positions next-img to the right */
 .next-img {
-    right: 2%;
-}
-
-/* On hover add a black translucent background-color */
-.prev-img:hover, .next-img:hover {
-    background-color: rgba(0,0,0,0.8);
-}
-
-/* The dot indicators */
-.dot {
-    display: inline-block;
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 auto;
-    background-color: #bbb;
-    border-radius: 50%;
-    transition: background 0.6s ease;
-}
-
-.active, .dot:hover {
-    border: 5px solid brown;
-    padding-left: 5px;
-    padding-right: 5px;
-}
-
-/* Fade animation */
-.fade {
-    animation-name: fade;
-    animation-duration: 1.5s;
-}
-
-@keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
+    right: 0;
 }
 
 /* Preset Styles / Preset Classes */
@@ -190,104 +148,130 @@ section#about {
     text-align: center;
     margin: 1% auto;
 }
+
 .underline {
     text-decoration-line: underline;
 }
+
 .m-y-one {
     margin-top: 1%;
     margin-bottom: 1%;
 }
+
 .m-x-auto {
     margin-left: auto;
     margin-right: auto;
 }
+
 .m-y-one {
     margin-top: 1%;
     margin-bottom: 1%;
 }
+
 .p-x-one {
     padding-left: 1%;
     padding-right: 1%;
 }
+
 .p-y-one {
     padding-top: 1%;
     padding-bottom: 1%;
 }
+
 .w-half {
     width: 50%;
 }
+
 .left {
     text-align: left;
 }
+
 .trans {
     background-color: transparent;
     border: transparent;
 }
+
 .grid {
-    display: grid;
-    grid-template-columns: 33.3% 33.3% 33.3%;
+    display: block;
 }
+
 .col {
     padding: 3%;
     border-top: 2px solid #000;
     border: 2px solid #000;
     background-color: #83817f;
 }
+
 form {
     display: block;
-    width: 30%;
+    width: 100%;
     height: fit-content;
     max-height: 1%;
-    background-color: linear-gradient(to left, 65% #ffa500, #fff);
     margin: 0 auto;
     background-color: #717171;
+    font-size: large;
+    text-align: center;
+    padding-top: 5%;
 }
+
 form div {
     background-color: transparent;
 }
+
 div.container {
     display: block;
     margin: 0 auto;
 }
+
 h5.left {
     margin-bottom: 0;
 }
+
 div.col ul {
     margin-top: 1%;
 }
+
 div.p-x-one {
     display: block;
     border: 1px solid #000;
     margin-right: 0.1%;
     margin: 0 auto;
 }
+
 label {
     display: block;
     width: 100%;
 }
+
 input {
     display: block;
     width: 100%;
     right: 0;
     clear: none;
 }
+
 div.trans {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
 }
+
 .caption {
-    color:#868585;
+    color: #868585;
     font-size: smaller;
 }
+
 .white {
     color: #fff;
 }
+
 .Pfont {
     font-family: PoorStory, Impact, serif;
 }
+
 .f40 {
     font-size: 40px;
 }
+
 .f32 {
     font-size: 32px;
 }
@@ -296,4 +280,324 @@ div.trans {
     color: white;
     font-size: 20px;
     text-align: center;
+}
+
+@media screen and (min-width: 630px), print {
+    main {
+            display: block;
+            min-height: 150%;
+            padding-bottom: 1%;
+    }
+
+    main h2 {
+        text-align: center;
+    }
+
+    header {
+        background-color: #333;
+        color: white;
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    .navigation {
+        font-size: 2em;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
+    nav ul {
+        padding: 0;
+        list-style: none;
+    }
+
+    nav ul li {
+        display: inline;
+        margin: 0 10px;
+    }
+
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+    }
+
+    section {
+        padding: 20px;
+        margin: 10px;
+    }
+
+    footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 10px 0;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .menu {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        border: 5px solid black;
+    }
+
+    form {
+        margin-top: 20px;
+    }
+
+    form input[type=text],
+    form input[type=date],
+    form input[type=time],
+    form input[type=number] {
+        padding: 5px;
+        margin: 10px 0;
+    }
+
+    form input[type=submit] {
+        background-color: #333;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+    }
+
+    form input[type=sgallaryubmit]:hover {
+        background-color: #555;
+    }
+
+    .max-width {
+        width: 100%;
+    }
+
+    .gal-container {
+        max-width: 60%;
+        height: 20vh;
+        height: auto;
+        position: relative;
+        margin: auto;
+    }
+
+    p.center {
+        font-weight: bold;
+    }
+
+    section#about {
+        color: #fff;
+        font-weight: bold;
+    }
+
+    /* Makes gallery hidden by default */
+    .gallery {
+        display: none;
+    }
+
+    .prev-img,
+    .next-img {
+        cursor: pointer;
+        position: absolute;
+        font-size: xx-large;
+        font-weight: bold;
+        top: 50%;
+        width: 3%;
+        margin-top: -1%;
+        padding: 1%;
+        color: #f00;
+    }
+
+    .gal-img {
+        width: 100%;
+        height: 100%;
+        border: 5px solid black;
+    }
+
+    /* Positions prev-img to the left*/
+    .prev-img {
+        left: 2%;
+    }
+
+    /* Positions next-img to the right */
+    .next-img {
+        right: 2%;
+    }
+
+    /* On hover add a black translucent background-color */
+    .prev-img:hover,
+    .next-img:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    /* The dot indicators */
+    .dot {
+        display: inline-block;
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 auto;
+        background-color: #bbb;
+        border-radius: 50%;
+        transition: background 0.6s ease;
+    }
+
+    .active,
+    .dot:hover {
+        border: 5px solid brown;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    /* Fade animation */
+    .fade {
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+
+    @keyframes fade {
+        from {
+            opacity: .4
+        }
+
+        to {
+            opacity: 1
+        }
+    }
+
+    /* Preset Styles / Preset Classes */
+    .center {
+        text-align: center;
+        margin: 1% auto;
+    }
+
+    .underline {
+        text-decoration-line: underline;
+    }
+
+    .m-y-one {
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+
+    .m-x-auto {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .m-y-one {
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+
+    .p-x-one {
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+
+    .p-y-one {
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+
+    .w-half {
+        width: 50%;
+    }
+
+    .left {
+        text-align: left;
+    }
+
+    .trans {
+        background-color: transparent;
+        border: transparent;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: 33.3% 33.3% 33.3%;
+    }
+
+    .col {
+        padding: 3%;
+        border-top: 2px solid #000;
+        border: 2px solid #000;
+        background-color: #83817f;
+    }
+
+    form {
+        display: block;
+        width: 30%;
+        height: fit-content;
+        max-height: 1%;
+        background-color: linear-gradient(to left, 65% #ffa500, #fff);
+        margin: 0 auto;
+        background-color: #717171;
+    }
+
+    form div {
+        background-color: transparent;
+    }
+
+    div.container {
+        display: block;
+        margin: 0 auto;
+    }
+
+    h5.left {
+        margin-bottom: 0;
+    }
+
+    div.col ul {
+        margin-top: 1%;
+    }
+
+    div.p-x-one {
+        display: block;
+        border: 1px solid #000;
+        margin-right: 0.1%;
+        margin: 0 auto;
+    }
+
+    label {
+        display: block;
+        width: 100%;
+    }
+
+    input {
+        display: block;
+        width: 100%;
+        right: 0;
+        clear: none;
+    }
+
+    div.trans {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .caption {
+        color: #868585;
+        font-size: smaller;
+    }
+
+    .white {
+        color: #fff;
+    }
+
+    .Pfont {
+        font-family: PoorStory, Impact, serif;
+    }
+
+    .f40 {
+        font-size: 40px;
+    }
+
+    .f32 {
+        font-size: 32px;
+    }
+
+    .confirm-msg {
+        color: white;
+        font-size: 20px;
+        text-align: center;
+    }
 }
