@@ -105,6 +105,10 @@ form input[type=sgallaryubmit]:hover {
     margin: auto;
 }
 
+p.center {
+    font-weight: bold;
+}
+
 /* Makes gallery hidden by default */
 .gallery {
     display: none;
