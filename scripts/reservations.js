@@ -10,7 +10,9 @@ document.addEventListener("DOMContentLoaded", function () {
         let period = "AM";
         let hours12 = parseInt(hours);
         
-        if (hours12 >= 12) {
+        if (hours12 === 0) {
+            hours12 = 12; // Display 12:00 AM as 12:00 AM
+        } else if (hours12 >= 12) {
             period = "PM";
             if (hours12 > 12) {
                 hours12 -= 12;
