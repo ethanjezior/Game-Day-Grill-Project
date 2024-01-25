@@ -7,9 +7,14 @@ function galImg(n) {
     showGal(imgIndex += n);
 }
 
-// Thumbnail image controls
-function currentImg(n) {
+// Thumbnail image controls with arrows
+function ArrowSlider(n) {
     showGal(imgIndex += n);
+}
+
+// Thumbnail image controls with dots bellow
+function DotsSlider(n) {
+    showGal(imgIndex = n);
 }
 
 // Controls display of Gallery Images
