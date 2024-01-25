@@ -1,8 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
-    // Get a reference to the form and the empty paragraph
+    // Get a reference to the form and the empty paragraph for confirmation
     const reservationForm = document.getElementById("reservationForm");
-    const confirmationParagraph = document.createElement("p");
-    const main = document.querySelector("main");
+    const confirmMsgParagraph = document.querySelector(".confirm-msg"); // Select the empty <p> tag by class
     
     // Function to convert 24-hour time to 12-hour format
     function convertTo12HourFormat(time24) {
@@ -34,11 +33,8 @@ document.addEventListener("DOMContentLoaded", function () {
         // Create the confirmation message
         const confirmationMessage = `Thank you for your reservation at ${time} on ${date}.`;
         
-        // Update the paragraph text with the confirmation message
-        confirmationParagraph.textContent = confirmationMessage;
-        
-        // Append the confirmation paragraph to the main element
-        main.appendChild(confirmationParagraph);
+        // Update the empty <p> tag's text content with the confirmation message
+        confirmMsgParagraph.textContent = confirmationMessage;
         
         // Reset the form
         reservationForm.reset();
