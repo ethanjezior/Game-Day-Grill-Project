@@ -113,6 +113,11 @@ p.center {
 section#about {
     color: #fff;
     font-weight: bold;
+    background-color: #7e5c1d;
+    border-radius: 10px;
+    max-width: 75%;
+    margin:auto;
+    margin-top: 1%;
 }
 
 /* Makes gallery hidden by default */
