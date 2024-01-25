@@ -113,6 +113,11 @@ p.center {
 section#about {
     color: #fff;
     font-weight: bold;
+    background-color: #7e5c1d;
+    border-radius: 10px;
+    max-width: 75%;
+    margin:auto;
+    margin-top: 1%;
 }
 
 /* Makes gallery hidden by default */
@@ -220,6 +225,7 @@ form {
     font-size: large;
     text-align: center;
     padding-top: 1%;
+    padding-bottom: 1%;
 }
 
 form div {
@@ -468,13 +474,20 @@ div.trans {
     }
 
     @keyframes fade {
-        from {
-            opacity: .4
-        }
+        from {opacity: .4}
+        to {opacity: 1}
+    }
 
-        to {
-            opacity: 1
-        }
+    /* Zoom in css */
+    img {
+        cursor: pointer;
+        transition: -webkit-transform 0.1s ease
+    }
+
+    img:focus {
+        transform: scale(2);
+        -webkit-transform: scale(2);
+        -ms-transform: scale(2);
     }
 
     /* Preset Styles / Preset Classes */
