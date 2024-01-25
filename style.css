@@ -109,6 +109,10 @@ p.center {
     font-weight: bold;
 }
 
+section#about {
+    color:#fff;
+    font-weight: bold;
+}
 /* Makes gallery hidden by default */
 .gallery {
     display: none;
@@ -269,4 +273,7 @@ div.trans {
 .caption{
     color:#868585;
     font-size: smaller;
+}
+.white {
+    color: #fff;
 }
