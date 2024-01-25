@@ -277,3 +277,9 @@ div.trans {
 .white {
     color: #fff;
 }
+
+.confirm-msg {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
