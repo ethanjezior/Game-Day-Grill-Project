@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
             "January", "February", "March", "April", "May", "June", 
             "July", "August", "September", "October", "November", "December"
         ];
-        return months[month - 1];
+        return months[month];
     }
     
     // Add an event listener to the form submission
@@ -36,11 +36,11 @@ document.addEventListener("DOMContentLoaded", function () {
         
         // Get the values entered by the user
         const name = document.getElementById("name").value;
-        const date = new Date(document.getElementById("date").value);
+        const date = new Date(`${document.getElementById("date").value}T00:00:00Z`);
         const time = convertTo12HourFormat(document.getElementById("time").value);
         
         // Create the confirmation message
-        const confirmationMessage = `Thank you for your reservation at ${time} on ${convertToMonthName(date.getMonth() + 1)} ${date.getDate()}.`;
+        const confirmationMessage = `Thank you for your reservation at ${time} on ${convertToMonthName(date.getUTCMonth())} ${date.getUTCDate()}.`;
         
         // Update the empty <p> tag's text content with the confirmation message
         confirmMsgParagraph.textContent = confirmationMessage;
