@@ -2,11 +2,6 @@
 let imgIndex = 0;
 showGal(imgIndex);
 
-// Next/Prev controls
-function galImg(n) {
-    showGal(imgIndex += n);
-}
-
 // Thumbnail image controls with arrows
 function ArrowSlider(n) {
     showGal(imgIndex += n);
