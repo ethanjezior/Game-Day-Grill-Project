@@ -113,10 +113,10 @@ form input[type=sgallaryubmit]:hover {
 .prev-img, .next-img {
     cursor: pointer;
     position: absolute;
-    font-size: larger;
+    font-size: xx-large;
     font-weight: bold;
     top: 50%;
-    width: 1%;
+    width: 3%;
     margin-top: -1%;
     padding: 1%;
     color: #f00;
