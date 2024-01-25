@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     // Get a reference to the form and the empty paragraph for confirmation
     const reservationForm = document.getElementById("reservationForm");
-    const confirmMsgParagraph = document.querySelector(".confirm-msg"); // Select the empty <p> tag by class
+    const confirmMsgParagraph = document.getElementById("confirm-msg"); // Select the empty <p> tag by ID
     
     // Function to convert 24-hour time to 12-hour format
     function convertTo12HourFormat(time24) {

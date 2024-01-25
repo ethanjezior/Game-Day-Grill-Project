@@ -276,12 +276,19 @@ div.trans {
     font-size: 32px;
 }
 
-.confirm-msg {
+#confirm-msg {
     color: white;
     font-size: 20px;
     text-align: center;
 }
-<<<<<<< HEAD
+
+#job-apply-msg {
+    color: white;
+    font-size: 20px;
+    text-align: center;    
+}
+
+
 
 @media screen and (min-width: 630px), print {
     main {
@@ -596,11 +603,15 @@ div.trans {
         font-size: 32px;
     }
 
-    .confirm-msg {
+    #confirm-msg {
         color: white;
         font-size: 20px;
         text-align: center;
     }
+    
+    #job-apply-msg {
+        color: white;
+        font-size: 20px;
+        text-align: center;    
+    }
 }
-=======
->>>>>>> dcff3fb5d31fbda9d00afb80466676453eaa6a44
