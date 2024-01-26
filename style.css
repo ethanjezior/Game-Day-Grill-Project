@@ -35,7 +35,7 @@ header {
     padding: 10px 0;
     text-align: center;
 }
-.navigation {
+.navigation{
     font-size: 3em;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
@@ -63,6 +63,18 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
+}
+
+footer ul {
+    padding: 0;
+    list-style: none;
+    
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
 }
 
 .menu {
