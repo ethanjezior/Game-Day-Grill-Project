@@ -237,7 +237,9 @@ form {
 form div {
     background-color: transparent;
 }
-
+.box{
+  
+}
 div.container {
     display: block;
     margin: 0 auto;
