@@ -24,6 +24,9 @@ main {
 }
 main h2 {
     text-align: center;
+    font-size: 7vw;
+    font-weight: bold;
+    text-shadow:2px 2px #bbb
 }
 
 header {
@@ -33,7 +36,7 @@ header {
     text-align: center;
 }
 .navigation {
-    font-size: 2em;
+    font-size: 3em;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
@@ -132,7 +135,8 @@ section#about {
     font-size: 15vw;
     font-weight: bold;
     top: 10vh;
-    width: 15vw;
+    width: fit-content;
+    height: fit-content;
     margin-top: -1%;
     padding: 1%;
     color: #f00;
@@ -198,6 +202,7 @@ section#about {
 
 .grid {
     display: block;
+    font-size: larger;
 }
 
 .col {
@@ -222,7 +227,7 @@ form {
     max-height: 1%;
     margin: 0 auto;
     background-color: #717171;
-    font-size: large;
+    font-size: 6vw;
     text-align: center;
     padding-top: 1%;
     padding-bottom: 1%;
@@ -425,7 +430,8 @@ div.trans {
         font-size: xx-large;
         font-weight: bold;
         top: 50%;
-        width: 3%;
+        width: auto;
+        height: auto;
         margin-top: -1%;
         padding: 1%;
         color: #f00;
@@ -489,12 +495,12 @@ div.trans {
         transition: -webkit-transform 0.1s ease
     }
 
-    img:focus {
+    .zoomed {
         transform: scale(2);
         -webkit-transform: scale(2);
         -ms-transform: scale(2);
     }
-
+    
     /* Preset Styles / Preset Classes */
     .center {
         text-align: center;
