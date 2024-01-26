@@ -560,7 +560,7 @@ div.trans {
     .grid {
         display: grid;
         grid-template-columns: 33.3% 33.3% 33.3%;
-        font-size: 1vw;
+        font-size: 1.4vw;
     }
 
     .col {
