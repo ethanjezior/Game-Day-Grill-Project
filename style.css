@@ -286,7 +286,12 @@ div.trans {
 .Pfont {
     font-family: PoorStory, Impact, serif;
 }
-
+.f60{
+    font-size: 60px;
+}
+.f50{
+    font-size: 50px;
+}
 .f40 {
     font-size: 40px;
 }
