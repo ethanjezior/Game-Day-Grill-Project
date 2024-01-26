@@ -231,6 +231,7 @@ form {
     text-align: center;
     padding-top: 1%;
     padding-bottom: 1%;
+    border: 7px solid black;
 }
 
 form div {
