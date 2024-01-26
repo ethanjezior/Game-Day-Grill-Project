@@ -22,11 +22,11 @@ main {
     min-height: 100%;
     padding-bottom: 1%;
 }
-main h2 {
+main h1 {
     text-align: center;
     font-size: 7vw;
     font-weight: bold;
-    text-shadow:2px 2px #bbb
+    text-shadow: 2px 2px #bbb
 }
 
 header {
@@ -202,7 +202,7 @@ section#about {
 
 .grid {
     display: block;
-    font-size: larger;
+    font-size: 5vw;
 }
 
 .col {
@@ -319,8 +319,11 @@ div.trans {
             padding-bottom: 1%;
     }
 
-    main h2 {
+    main h1 {
         text-align: center;
+        font-size: 2.5vw;
+        font-weight: bold;
+        text-shadow: 2px 2px #bbb
     }
 
     header {
@@ -557,13 +560,14 @@ div.trans {
     .grid {
         display: grid;
         grid-template-columns: 33.3% 33.3% 33.3%;
+        font-size: 1vw;
     }
 
     .col {
         padding: 3%;
         border-top: 2px solid #000;
         border: 2px solid #000;
-        background-color: #83817f;
+        background-color: hsla(0, 0%, 65%, 0.75);
     }
 
     form {
@@ -571,9 +575,9 @@ div.trans {
         width: 30%;
         height: fit-content;
         max-height: 1%;
-        background-color: linear-gradient(to left, 65% #ffa500, #fff);
         margin: 0 auto;
         background-color: #717171;
+        font-size: 2vw;
     }
 
     form div {
