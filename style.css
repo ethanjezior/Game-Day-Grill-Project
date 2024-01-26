@@ -495,12 +495,12 @@ div.trans {
         transition: -webkit-transform 0.1s ease
     }
 
-    img:focus {
+    .zoomed {
         transform: scale(2);
         -webkit-transform: scale(2);
         -ms-transform: scale(2);
     }
-
+    
     /* Preset Styles / Preset Classes */
     .center {
         text-align: center;
