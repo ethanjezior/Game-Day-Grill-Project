@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
         // Check for the easter egg condition
         if (checkEasterEgg(firstName, lastName)) {
             // Display the easter egg image as a full-screen background
-            window.open("");
+            window.open("/dev-notes.txt");
             confirmMsgParagraph.style.display = 'none'; // Hide the confirmation message
         } else {
             // Create the confirmation message
