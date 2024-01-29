@@ -5,6 +5,7 @@ with eyesight problems.
 */
 document.addEventListener('DOMContentLoaded', function () {
     var imgs = document.querySelectorAll('img');
+    let main = document.getElementsByTagName("main");
     Array.prototype.forEach.call(imgs, function (img) {
         // Set tabIndex to make images focusable
         if (img.tabIndex <= 0) img.tabIndex = 10000;
@@ -13,6 +14,9 @@ document.addEventListener('DOMContentLoaded', function () {
         img.addEventListener('click', function(event) {
             // Toggle the 'zoomed' class
             this.classList.toggle('zoomed');
+
+            // Toggle 'main-zoom' class for main
+            this.classList.toggle('main-zoom');
         });
     });
 });

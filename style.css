@@ -60,7 +60,7 @@ footer {
     color: white;
     text-align: center;
     padding: 10px 0;
-    position: relative;
+    position: fixed;
     bottom: 0;
     width: 100%;
 }
@@ -328,8 +328,13 @@ div.trans {
 }
 
 @media screen and (min-width: 630px), print {
+    .main-zoom {
+        padding-bottom: 0%;
+    }
+
     main {
             display: block;
+            position: relative;
             min-height: 150%;
             padding-bottom: 1%;
     }
@@ -378,7 +383,7 @@ div.trans {
         color: white;
         text-align: center;
         padding: 10px 0;
-        position: relative;
+        position:static;
         bottom: 0;
         width: 100%;
     }
