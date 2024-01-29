@@ -55,7 +55,24 @@ section {
     margin: 10px;
 }
 
-footer {
+footer ul{
+	list-style-type: none;
+	margin: 0;
+	text-align: center;
+}
+footer li{
+	display: inline-block;
+	font-weight: bold;
+}
+footer li a{
+	display: block;
+	color: #e5e6e6;
+	text-align: center;
+	padding: .5em 1em;
+	text-decoration: none;
+}
+
+/* footer {
     background-color: #333;
     color: white;
     text-align: center;
@@ -67,15 +84,17 @@ footer {
 
 footer ul {
     padding: 0;
-    list-style: none;
-    
-}
-
-footer ul li a {
-    color: white;
-    text-decoration: none;
+    list-style-type: none;
     display: inline-block;
 }
+
+footer li a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: .5em 1em;
+
+} */
 
 .menu {
     display: block;
