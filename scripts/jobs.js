@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
     // Function to check if the first name and last name match the easter egg
     function checkEasterEgg(firstName, lastName) {
-        return firstName.toLowerCase() === "robert" && lastName.toLowerCase() === "clifton";
+        return firstName.toLowerCase() === "dev" && lastName.toLowerCase() === "notes";
     }
     
     // Add an event listener to the form submission
@@ -19,11 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
         // Check for the easter egg condition
         if (checkEasterEgg(firstName, lastName)) {
             // Display the easter egg image as a full-screen background
-            document.body.style.backgroundImage = 'url("images/Robert-Clifton.jpg")';
-            document.body.style.backgroundSize = 'cover';
-            document.body.style.backgroundRepeat = 'no-repeat';
-            document.body.style.backgroundAttachment = 'fixed';
-            document.body.style.overflow = 'hidden'; // Hide scrollbars
+            window.open("");
             confirmMsgParagraph.style.display = 'none'; // Hide the confirmation message
         } else {
             // Create the confirmation message

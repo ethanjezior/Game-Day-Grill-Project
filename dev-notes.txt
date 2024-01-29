@@ -1,0 +1,31 @@
+This file is dedicated to following the developement progress of this site.
+
+Jobs:
+ - Viekses: html & css
+ - Nathan: html & css
+ - Brian: html & javascript 
+ - Ethan: css & javascript
+
+Dev Progress:
+ - Brian started the website and made the html blueprints that 
+   we used as an outline.
+
+ - Ethan started adding the different files together to make the
+   websites structure.
+
+ - Brian began working on generating the logo for Game-Day-Grill
+   and Ethan used it to make the Game-Day-Grill favicon.
+
+ - Ethan and Viekses started working on the layout of the website,
+   Viekses worked on the html and Ethan worked on the css.
+
+ - Nathan worked on adding notes to the various files in order to 
+   increase readability.
+
+ - Viekses and Nathan worked on filling the menu with dishes than 
+   felt realistic and accurate to the goal
+
+ - Brian wrote the code for the java-script carousel and Ethan wrote 
+   the code for the java-script menu-zoom feature.
+
+ - Brian and Nathan worked on adding an order page
